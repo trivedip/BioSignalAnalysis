@@ -35,11 +35,8 @@ for j=1:1:out_iterations
     
     
 end
-    %disp(counter);
+    kriss = crossing(avg2)
     
-    %if(j>4)
-     %   [peaks,idx]=findpeaks(array_for_com);
-     %   findpeaks(array_for_com)
-    %end
+   
     %sum(array_for_com(:)==0)
 out_put = avg2;
