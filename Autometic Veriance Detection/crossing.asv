@@ -1,4 +1,0 @@
-function crossing_count = crossing(column)
-pl = detrend(column);
-crossing_count = nnz(diff(sign(pl(find(pl)))))
-crossing
