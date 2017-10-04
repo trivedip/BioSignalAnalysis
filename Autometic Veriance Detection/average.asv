@@ -61,4 +61,5 @@ elseif(config==3)
         end_block = end_block+bksz;    
     end
 end    
+
 out_put = avg2;
